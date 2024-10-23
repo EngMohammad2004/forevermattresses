@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    <title>For Ever - Product</title>
+
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="/css/responsive.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="/images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class=""></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="/index.html"
+                  >الرئيسية <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/shop.html"> المتجر </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/why.html"> ليه فور إيفر؟ </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/testimonial.html"> آراء العملاء </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"> تواصل معنا </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- end header section -->
+
+      <!-- product details section -->
+      <section class="product_section">
+        <div class="container">
+          <div class="row">
+            <!-- صورة المنتج -->
+            <div class="col-md-6">
+              <img
+                src="/images/product-example.jpg"
+                alt="صورة المنتج"
+                class="img-fluid"
+              />
+            </div>
+
+            <!-- تفاصيل المنتج -->
+            <div class="col-md-6">
+              <h2 class="product-title">مرتبة فور إيفر الطبية</h2>
+              <p class="product-price">1500 جنيه</p>
+              <p class="product-description">
+                مرتبة طبية مريحة بجودة عالية وضمان 20 سنة. مكونات المرتبة:
+                ريبوند طبي، إسفنج سوفت، وقماش قطن على فايبر.
+              </p>
+              <div class="product-options">
+                <div class="form-group d-flex align-items-center">
+                    <label for="height" class="mr-2">الإرتفاع:</label>
+                    <select id="height" class="form-control">
+                        <option value="20">20 سم</option>
+                        <option value="25">25 سم</option>
+                        <option value="30">30 سم</option>
+                    </select>
+                </div>
+            
+                <div class="form-group d-flex align-items-center mt-3">
+                    <label for="width" class="mr-2">العرض:</label>
+                    <select id="width" class="form-control">
+                        <option value="80">80 سم</option>
+                        <option value="90">90 سم</option>
+                        <option value="100">100 سم</option>
+                        <option value="120">120 سم</option>
+                        <option value="140">140 سم</option>
+                        <option value="160">160 سم</option>
+                        <option value="180">180 سم</option>
+                    </select>
+                </div>
+            
+                <div class="form-group d-flex align-items-center mt-3">
+                    <label for="length" class="mr-2">الطول:</label>
+                    <select id="length" class="form-control">
+                        <option value="180">180 سم</option>
+                        <option value="185">185 سم</option>
+                        <option value="190">190 سم</option>
+                        <option value="195">195 سم</option>
+                        <option value="200">200 سم</option>
+                    </select>
+                </div>
+                
+                <div class="form-group d-flex justify-content-between align-items-center mt-3">
+                    <label for="memory-foam" class="mr-2">إضافة طبقة الميموري فوم:</label>
+                    <div class="ml-3"> <!-- إضافة هامش من اليسار -->
+                        <input type="checkbox" id="memory-foam" class="form-check-input" />
+                    </div>
+                </div>     
+            
+                <div class="form-group quantity-input mt-3">
+                    <label for="quantity">العدد المطلوب:</label>
+                    <div class="input-group" style="flex-basis: 50%;">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-outline-secondary" type="button" id="decrease">−</button>
+                        </div>
+                        <input type="number" id="quantity" class="form-control text-center" value="1" min="1" />
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="increase">+</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <button class="btn btn-primary mt-4">اشتري الآن</button>
+            </div>            
+            </div>
+          </div>
+
+          <!-- مراجعات العملاء -->
+          <div class="reviews mt-5">
+            <h3>آراء العملاء</h3>
+            <div class="review-item">
+              <strong>محمد عبد الله</strong> - <span>★★★★★</span>
+              <p>المرتبة ممتازة ومريحة جدًا، أنصح الجميع بشرائها.</p>
+            </div>
+            <div class="review-item">
+              <strong>أحمد السيد</strong> - <span>★★★★☆</span>
+              <p>جيدة جدًا، لكن كان عندي مشكلة صغيرة في التوصيل.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- info section -->
+      <section class="info_section layout_padding2-top">
+        <div class="social_container">
+          <div class="social_box">
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""
+              ><i class="fa-brands fa-tiktok" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <div class="info_container">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-3">
+                <h6>ABOUT US</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  doLorem ipsum dolor sit amet.
+                </p>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <h6>CONTACT US</h6>
+                <div class="info_link-box">
+                  <a href="https://maps.app.goo.gl/PHA1udg6umpAVKnq6"
+                    ><i class="fa fa-map-marker" aria-hidden="true"></i
+                    ><span> الباجور محافظة، المنوفية </span></a
+                  >
+                  <a href="tel:+201121630090"
+                    ><i class="fa fa-phone" aria-hidden="true"></i
+                    ><span dir="ltr">+201121630090</span></a
+                  >
+                  <a href="mailto:forevermattresses@gmail.com"
+                    ><i class="fa fa-envelope" aria-hidden="true"></i
+                    ><span> forevermattresses@gmail.com</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer section -->
+      <footer class="footer_section">
+        <div class="container">
+          <p>
+            &copy; <span id="displayYear"></span> All Rights Reserved By
+            <a href="https://html.design/">Free Html Templates</a>
+          </p>
+        </div>
+      </footer>
+      <!-- end info section -->
+    </div>
+
+    <!-- JS links -->
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/js/custom.js"></script>
+  </body>
+</html>
