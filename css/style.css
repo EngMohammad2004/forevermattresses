@@ -246,7 +246,7 @@ a:focus {
 /*end header section*/
 .slider_section .slider_container {
   color: #fefefe;
-  background-image: url(/images/bed-bg.png);
+  background-image: url(../images/bed-bg.png);
   background-size: cover;
   background-position: right top;
   padding: 25px;
